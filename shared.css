@@ -154,11 +154,11 @@ main {
 .main-nav {
     display: none;
 }
-
+/*
 .nav-nav__item::after {
     content: " Link";
     color: gold;
-}
+}*/
 
 .nav-nav__item--cta a,
 .mobile-nav__item--cta a {
