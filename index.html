@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=2.0">
+    <title>Uhost</title>
+    <link rel="stylesheet" href="shared.css"> <!--respect order-->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="backdrop"></div>
+
+    <div class="modal modal-display__none">
+        <h1 class="modal__title">Do you want to continue?</h1>
+        <div class="modal__actions">
+            <a href="start-hosting/index.html" class="modal__action">YES</a>
+            <button class="modal__action modal__action--negative">NO</button>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+
+            <a href="index.html" class="header-main__brand">
+                <img src="images/uhost.png" alt="Uhost - hosting company">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-nav__items">
+                <li class="nav-nav__item"><a href="packages/index.html">Packages</a></li>
+                <li class="nav-nav__item"><a href="customer/index.html">Customer</a></li>
+                <li class="nav-nav__item nav-nav__item--cta"><a href="start-hosting/index.html">Start hosting</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--mobile devices-->
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item"><a href="packages/index.html">Packages</a></li>
+            <li class="mobile-nav__item"><a href="customer/index.html">Customer</a></li>
+            <li class="mobile-nav__item mobile-nav__item--cta"><a href="start-hosting/index.html">Start hosting</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="title-project">
+            <h1>Get the time you deserve</h1>
+        </section>
+
+        <section class="plans-section">
+            <h1 class="section-title">Choose your plan</h1>
+            <div class="plans">
+                <article class="plan">
+                    <h1 class="plan__title">FREE</h1>
+                    <h2 class="plan__price">$0/month</h2>
+                    <h3>For hobby projects or small teams</h3>
+                    <ul class="plan__features">
+                        <li>1 Workspace</li>
+                        <li>Unlimited traffic</li>
+                        <li>10GB Storage</li>
+                        <li>Basic Suport</li>
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+                <article class="plan plan--highlighted">
+                    <h1 class="plan__annotation">RECOMENDED</h1>
+                    <h1 class="plan__title">PLUS</h1>
+                    <h2 class="plan__price">$29/month</h2>
+                    <h3>For ambitious projects</h3>
+                    <ul class="plan__features">
+                        <li>1 Workspace</li>
+                        <li>Unlimited traffic</li>
+                        <li>10GB Storage</li>
+                        <li>Basic Suport</li>
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+                <article class="plan">
+                    <h1 class="plan__title">PREMIUM</h1>
+                    <h2 class="plan__price">$99/month</h2>
+                    <h3>Your enterprise solution</h3>
+                    <ul class="plan__features">
+                        <li>1 Workspace</li>
+                        <li>Unlimited traffic</li>
+                        <li>10GB Storage</li>
+                        <li>Basic Suport</li>
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="key-features">
+            <h1 class="section-title">Many good reasons to stick around</h1>
+            <ul class="key-feature__list">
+                <li class="features-list__item">
+                    <div class="key-feature__img">
+                        <img class="key-feature__img--svg" src="images/1.svg.svg" alt="image trusting customer">
+                    </div>
+                    <p class="key-feature__description">3,857,000 Trusting Customers</p>
+                </li>
+                <li class="features-list__item">
+                    <div class="key-feature__img">
+                        <img class="key-feature__img--svg" src="images/2.svg.svg" alt="image uptime guarantee">
+                    </div>
+                    <p class="key-feature__description">99,999 Trusting Customers</p>
+                </li>
+                <li class="features-list__item">
+                    <div class="key-feature__img">
+                        <img class="key-feature__img--svg" src="images/3.svg.svg" alt="lighying image">
+                    </div>
+                    <p class="key-feature__description">Lighting fast CDN</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Suport</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of use</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="shared.js"></script>
+</body>
+
+</html>

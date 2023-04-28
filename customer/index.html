@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer</title>
+    <link rel="stylesheet" href="../shared.css"> <!--respect order-->
+    <link rel="stylesheet" href="customer.css">
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+
+            <a href="../index.html" class="header-main__brand">
+                <img src="../images/uhost.png" alt="Uhost - hosting company">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-nav__items">
+                <li class="nav-nav__item"><a href="../packages/index.html">Packages</a></li>
+                <li class="nav-nav__item"><a href="index.html">Customer</a></li>
+                <li class="nav-nav__item nav-nav__item--cta"><a href="../start-hosting/index.html">Start hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--mobile devices-->
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item"><a href="../packages/index.html">Packages</a></li>
+            <li class="mobile-nav__item"><a href="index.html">Customer</a></li>
+            <li class="mobile-nav__item mobile-nav__item--cta"><a href="../start-hosting/index.html">Start hosting</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--Customer 1-->
+        <div class="testimonial" id="customer-1">
+            <div class="testimonial__image-container">
+                <img class="testimonial__image" src="../images/customer-1.jpg" alt="Mike - Customer">
+            </div>
+
+            <div class="testimonial__info">
+                <h1 class="testimonial__name">Mike Statham</h1>
+                <h2 class="testimonial__subtitle">Founder of
+                    <a href="tech-analysis.com">tech-analysis.com</a>
+                </h2>
+                <p class="testimonial__text">Uhost helped me realize my project with high performance.</p>
+            </div>
+        </div>
+
+        <!--Customer 2-->
+        <div class="testimonial" id="customer-2">
+            <div class="testimonial__info">
+                <h1 class="testimonial__name">John Mellow</h1>
+                <h2 class="testimonial__subtitle">Host his private videos on Uhost</h2>
+                <p class="testimonial__text">Uhost helped me realize my project with high performance.</p>
+            </div>
+            <div class="testimonial__image-container">
+                <img class="testimonial__image" src="../images/customer-2.jpg" alt="John Mellow - Customer">
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Suport</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of use</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../shared.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+main {
+    padding: 0.5rem;
+}
+
+.background {
+    background: url("../images/plan.jpg");
+    background-position: center;
+    background-repeat: cover;
+    filter: grayscale(50%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#plus-plan {
+    background-color: rgb(184, 242, 184);
+}
+
+#free-plan {
+    background-color: rgb(118, 201, 118);
+    float: right;
+    text-align: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#premium-plan {
+    background-color: rgb(33, 81, 33);
+}
+
+#plus-plan .plan-subtitle,
+#free-plan .plan-subtitle {
+    color: grey;
+}
+
+
+#premium-plan .plan-subtitle,
+#premium-plan .plan-title {
+    color: whitesmoke;
+}
+
+
+.package {
+    border: green solid 3px;
+    margin-bottom: 0.5rem;
+    /*width: 60%;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.package .plan-title {
+    color: black;
+}
+
+.package .plan-description {
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+    border: 1px solid black;
+    font-size: 1.1rem;
+}
+
+.package a {
+    text-decoration: none;
+    display: block;
+    padding: 3rem;
+}
+
+.package__badge {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0.2rem 1.1rem;
+    font-size: 0.8rem;
+    background-color: rgb(231, 87, 87);;
+    padding: 0.5rem;
+    color: white;
+    transform: rotateZ(45deg) translateX(4rem) translateY(-2rem);
+    /*transform-origin: left top;*/
+    transform-origin: center;
+    width: 12rem;
+    text-align: center;
+}
+
+.package:hover,
+.package:active {
+    box-shadow: 2px 2px 4px black;
+    border-color: rgb(154, 75, 75);
+}
+
+@media (min-width: 40rem) {
+    main {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .packages-flex {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .package {
+        width: 70%;
+        margin: 1rem;
+        max-width: 1000px;
+    }
+
+    #plus-plan {
+        align-self: flex-end;
+    }
+
+    #free-plan {
+        align-self: flex-start;
+    }
+
+    #premium-plan {
+        align-self: center;
+    }
+}
